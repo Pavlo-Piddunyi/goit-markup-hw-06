@@ -84,13 +84,39 @@ img {
 
 
 /* Base styles*/
-
+/* Base styles for small devicec  */
 .container {
-  width: 1158px;
+  min-width: 320px;
+  max-width: 428px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 15px;
+  padding-right: 16px;
+  padding-left: 16px;
+
+  /* width: 1158px;
+  padding: 0 15px; */
+
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
+
+/* Tablet screen */
+@media  and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* Desktop screen */
+@media and (min-width: 1440px) {
+  .container {
+    max-width: 1158px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+
 .visually-hidden {
   position: absolute;
   width: 1px;
