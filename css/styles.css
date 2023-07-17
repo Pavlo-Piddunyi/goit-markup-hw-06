@@ -101,14 +101,14 @@ img {
 }
 
 /* Tablet screen */
-@media  and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
 }
 
 /* Desktop screen */
-@media and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
   .container {
     max-width: 1158px;
     padding-right: 15px;
@@ -116,6 +116,25 @@ img {
   }
 }
 
+  /* Base styles*/
+.section {
+  padding: 96px 0;
+  /* padding: 120px 0; */
+}
+
+/* Tablet screen */
+@media screen and (min-width: 768px) {
+.section {
+    padding: 96px 0;
+  }
+}
+
+/* Desktop screen */
+@media only screen and (min-width: 1440px) {
+.section {
+    padding: 120px 0;
+  }
+}
 
 .visually-hidden {
   position: absolute;
@@ -319,7 +338,7 @@ left: 0;
   |============================
 */
 .feature {
-padding: 120px 0;
+
 }
 .feature-title {
   display: none;
@@ -363,8 +382,8 @@ padding: 120px 0;
   |============================
 */
 .services {
-padding-bottom: 120px;
-  }
+  padding-top: 0;
+}
 
 .services-title {
   font-weight: 700;
@@ -394,8 +413,6 @@ padding-bottom: 120px;
 */
 
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
   background: #F4F4FD;
 }
 .team-title {
@@ -486,8 +503,7 @@ padding-bottom: 120px;
 */
 
 .clients {
-  padding-top: 120px;
-  padding-bottom: 120px;
+
 }
 .customers-title {
   text-align: center;
@@ -717,7 +733,7 @@ fill: #F4F4FD;
  /* Filter btn*/
 
 .filter {
-  padding: 96px 0 120px 0;
+  padding-top: 96px;
 }
 .filter-title {
 
