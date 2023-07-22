@@ -174,7 +174,7 @@
               <div class="team-card">
                 <h3 class="team-subtitle">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
-                <ul class="icom-item list">
+                <ul class="icon-item list">
                   <li class="icon-list"
                     ><a href="" class="icon-link link">
                       <svg class="icon-network" width="16" height="16">
@@ -209,7 +209,7 @@
               <div class="team-card">
                 <h3 class="team-subtitle">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
-                <ul class="icom-item list">
+                <ul class="icon-item list">
                   <li class="icon-list"
                     ><a href="" class="icon-link link">
                       <svg class="icon-network" width="16" height="16">
@@ -244,7 +244,7 @@
               <div class="team-card">
                 <h3 class="team-subtitle">Camila Garcia</h3>
                 <p class="team-text">Marketing</p>
-                <ul class="icom-item list">
+                <ul class="icon-item list">
                   <li class="icon-list"
                     ><a href="" class="icon-link link">
                       <svg class="icon-network" width="16" height="16">
@@ -279,7 +279,7 @@
               <div class="team-card">
                 <h3 class="team-subtitle">Daniel Wilson</h3>
                 <p class="team-text">UI Designer</p>
-                <ul class="icom-item list">
+                <ul class="icon-item list">
                   <li class="icon-list"
                     ><a href="" class="icon-link link">
                       <svg class="icon-network" width="16" height="16">
@@ -500,18 +500,8 @@
     <!-- Mobile menu -->
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu">
-        <svg
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-            clip-rule="evenodd"
-          ></path>
+        <svg class="" width="8" height="8">
+          <use href="./images/icons.svg#menu-close"></use>
         </svg>
       </button>
       <ul class="mobile-menu list">
@@ -527,7 +517,7 @@
       </ul>
       <ul class="mobile-contact-list list">
         <li class="mobile-contact">
-          <a class="mobile-mail-link trueactive" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <a class="mobile-mail-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
         </li>
         <li class="mobile-contact">
           <a class="mobile-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li
@@ -556,6 +546,7 @@
         ></li>
       </ul>
     </div>
+    <!-- Script -->
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
